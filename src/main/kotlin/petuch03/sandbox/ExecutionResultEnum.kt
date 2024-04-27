@@ -1,8 +1,9 @@
-package petuch03
+package petuch03.sandbox
 
 enum class ExecutionResultEnum {
     SUCCESS,
-    RUNTIME_ERROR,
     SYNTAX_ERROR,
+    RUNTIME_ERROR,
+    TIMEOUT,
     UNKNOWN_ERROR
 }
